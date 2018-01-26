@@ -1,0 +1,415 @@
+body{	
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+	text-decoration: none;
+}
+
+@font-face {
+  	font-family: 'ChronicleDisplay-Black';
+  	src: 	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-Black.eot?#iefix') format('embedded-opentype'),  
+  			url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-Black.otf')  format('opentype'),
+	    	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-Black.woff') format('woff'), 
+	    	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-Black.ttf')  format('truetype'), 
+	    	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-Black.svg#ChronicleDisplay-Black') format('svg');
+}
+
+@font-face {
+  	font-family: 'ChronicleDisplay-BlackItalic';
+  	src: 	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),  
+  			url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-BlackItalic.otf')  format('opentype'),
+	     	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-BlackItalic.woff') format('woff'), 
+	     	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-BlackItalic.ttf')  format('truetype'), 
+	     	url('/especiales/50-discos-peruanos-2017/fonts/ChronicleDisplay-BlackItalic.svg#ChronicleDisplay-BlackItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'actobook';
+    src: 	url('/especiales/50-discos-peruanos-2017/fonts/acto-book-webfont.woff2') format('woff2'),
+         	url('/especiales/50-discos-peruanos-2017/fonts/acto-book-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'actomedium';
+    src: 	url('/especiales/50-discos-peruanos-2017/fonts/acto-medium-webfont.woff2') format('woff2'),
+         	url('/especiales/50-discos-peruanos-2017/fonts/acto-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'actobold';
+    src: 	url('/especiales/50-discos-peruanos-2017/fonts/acto-bold-webfont.woff2') format('woff2'),
+         	url('/especiales/50-discos-peruanos-2017/fonts/acto-bold-webfont.woff') format('woff');
+}
+
+
+.clear{
+    clear: both;
+}
+
+#header{
+    width: 100%;
+}
+    .header-comercio{   
+        background: #000;        
+        padding: 12px 0 18px;
+        position: relative;
+        z-index: 9999999;
+    }
+        .ctn-header-comercio{
+            margin: 0 auto;     
+            max-width: 970px;
+        }
+            .ctn-header-comercio a{
+                display: inline-block;                
+                text-indent: -9999px;
+            }
+                a.logo-comercio{
+                    background: url(/especiales/50-discos-peruanos-2017/img/logo-comercio.png) no-repeat 0 0;
+                    background-size: 100%;
+                    height: 30px;
+                    width: 190px;
+                }
+                #social{
+                    float: right;
+                }
+                    #social ul{
+                        display: inline-block;
+                        margin: 0 auto;
+                        padding: 0;
+                        vertical-align: middle;
+                    }
+                        #social ul li{
+                            display: inline-block;
+                            margin: 0 3px;
+                            vertical-align: middle;
+                        }
+                            #social ul li a{
+                                height: 36px;
+                                width: 36px;
+                            }
+                                #social ul li a.facebook{
+                                    background: url(/especiales/50-discos-peruanos-2017/img/sprite-redes.png) no-repeat 0 0;  
+                                    background-size: 75px;                         
+                                }
+                                #social ul li a.tw{
+                                    background: url(/especiales/50-discos-peruanos-2017/img/sprite-redes.png) no-repeat -37px 0;  
+                                    background-size: 75px;                         
+                                }
+
+header{
+	text-align: center;
+}
+	header h1{
+		font: 52px/58px 'ChronicleDisplay-Black';
+		margin: 40px auto 10px;	
+		text-transform: uppercase;
+	}
+		header h1 a{
+			color: #000;
+		}
+			header h1 a img{
+				display: block;
+				margin: 0 auto;
+				max-width: 815px;
+				width: 100%;
+			}
+	header h2{
+		font: 24px/28px 'actobook';
+		margin: 0 auto 24px;
+	}
+		header h2 span{
+			font-family: 'actobold';
+		}
+	header span.linea-header{
+		background: #000;
+		display: block;
+		height: 2px;
+		margin: 0 auto;
+		width: 42px;
+	}
+
+.main{
+	margin: 75px auto 20px;
+	max-width: 1000px;
+}
+	.box-previo-cuento{
+		display: inline-block;
+		margin: 0 5px 40px;
+		max-width: 236px;
+		vertical-align: top;
+}
+		.box-previo-cuento span,
+		.box-cuento span{
+			display: block;
+			font: 42px/48px 'ChronicleDisplay-Black';
+		}
+		.box-bg-previo{
+			overflow: hidden;
+			position: relative;
+		}
+			.mas{
+				background-color: rgba(255, 254, 254, 0.75);
+				background-image: url(/especiales/50-discos-peruanos-2017/img/mas-icon.png);
+				background-position: 50%;
+				background-repeat: no-repeat;
+				background-size: 20%;
+				border-top: 4px solid #f9db32;
+				bottom: -102%;
+				height: 100%;		
+				position: absolute;
+				width: 100%;
+				z-index: 10;
+			}
+			.box-bg-previo img{
+				cursor: pointer;
+
+				-webkit-filter: grayscale(100%);
+			    -webkit-transition: .5s ease-in-out;
+			    -moz-filter: grayscale(100%); 
+			    -moz-transition: .5s ease-in-out;
+			    -o-filter: grayscale(100%); 
+			    -o-transition: .5s ease-in-out;
+			    filter: grayscale(100%);
+			}
+				.box-bg-previo:hover img{				
+			        -webkit-transition: .5s ease-in-out;			       
+			        -moz-transition: .5s ease-in-out;		
+			        -o-transition: .5s ease-in-out;	      
+			        -o-transition: .5s ease-in-out;			        
+				}
+				.box-bg-previo:hover .mas{					
+					bottom: -1.5%;
+
+					-webkit-transition: all 0.3s ease-in-out;
+           	 		-moz-transition: all 0.3s ease-in-out;
+            		-o-transition: all 0.3s ease-in-out;
+            		transition: all 0.3s ease-in-out;           
+				}
+		.box-info-previo{
+			color: #000;
+			margin: 10px auto;
+		}
+			.box-info-previo span.separador{
+				background: #000;
+				display: block;
+				height: 1px;
+				width: 42px;
+			}
+			.box-info-previo h5{
+				font: 13px/15px 'actobook';
+				margin: 15px auto 10px;
+			}
+			.box-info-previo h3{
+				font: 22px/24px 'ChronicleDisplay-BlackItalic';
+				margin: 0 auto 15px;
+			}
+				.box-info-previo h3 a{
+					color: #000;
+					text-decoration: none;
+				}
+					.box-info-previo h3 a:hover{
+						text-decoration: underline;
+					}
+			.box-info-previo h4{
+				color: #4c4b4b;
+				font: 16px/16px 'actobook';
+				margin: 0 auto 15px;
+			}
+			.box-info-previo h6{
+				color: #4c4b4b;
+				font: 13px/16px 'actobook';
+				margin: 0 auto 15px;
+			}
+
+		.box-cuento{
+			margin: 0 auto;
+			max-width: 660px;
+		}
+			.box-cuento p{
+				font: 22px/32px 'actobook';	
+				margin-bottom: 30px;			
+			}
+
+		.link{
+			border: 1px solid #000;	
+			margin-bottom: 40px;		
+			padding: 5px;
+			text-align: right;
+			width: 235px;
+		}
+			.link span,
+			.link span a{
+				color: #000;
+				font: 22px/24px 'ChronicleDisplay-BlackItalic';
+				text-align: left;
+			}
+			.link i{
+				background-size: 100%;
+				display: inline-block;
+				height: 15px;
+				vertical-align: top;
+				width: 21px;		    
+			}
+				.izq{
+					float: left;
+					text-align: left;
+				}
+				.izq span,
+				.izq span.titulo{
+					text-align: right;
+				}
+				.izq i{
+					background: url(/especiales/50-discos-peruanos-2017/img/izq.png);	
+					background-size: 100%;				
+				}
+
+				.der{
+					float: right;
+				}
+				.der i{
+					background: url(/especiales/50-discos-peruanos-2017/img/der.png);	
+					background-size: 100%;				
+				}
+			.link:hover{
+				background: #000;				
+			}
+				.link:hover span{
+					color: #fff;
+				}
+
+				.link-indice{
+			/*border: 1px solid #000;	*/
+			margin-bottom: 0px;		
+			padding: 5px;
+			text-align: center;
+			width: 100%;
+		}
+
+        .link-indice.center {
+            font: 18px/32px 'actobook';
+            color: black;
+            text-decoration: underline;
+            margin-bottom: 5px;
+        }
+
+iframe{
+	margin-bottom: 35px;
+}
+
+.box-main-creditos{
+    background: #252525;
+    width: 100%;
+}
+    .box-creditos{
+        color: #fff;
+        font: 12px/16px 'actobold';
+        margin: 80px auto 0;
+        padding: 40px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+        .box-creditos h4{
+            margin-bottom: 40px;
+        }
+        .box-nombre{
+            margin: 0 auto 15px;
+            /*width: 410px;*/
+        }
+            .box-nombre span{
+                display: block;
+            }
+            .box-creditos h5{
+                color: #ffc605;
+                display: inline-block;
+                font: 12px/16px 'actobook';
+                margin: 0 auto;
+            }
+        a.logo-footer{
+            background: url(/especiales/50-discos-peruanos-2017/img/logo-comercio.png) no-repeat 0 0;
+            background-size: 100%;
+            display: block;
+            height: 30px;
+            margin: 30px auto;  
+            text-indent: -9999px;       
+            width: 190px;
+        }
+
+/** agregados **/
+
+span.bold{
+	display: inline-block;
+	font: 22px/32px 'actobold';
+	vertical-align: top; 
+}
+
+@media screen and (max-width: 1366px) {
+
+
+@media screen and (max-width: 1280px) {
+
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+	.box-previo-cuento {
+	    max-width: 46%;
+	}
+}
+
+@media screen and (max-width: 640px) {      
+}
+
+@media screen and (max-width: 480px) {
+
+	.box-previo-cuento {
+	    max-width: 46%;
+	}
+	.box-info-previo h3.txt{
+		font-size: 20px;
+	}
+	.main {
+	    padding: 0 10px;
+	}
+	.link {
+	    width: 96%;
+	}
+  
+}
+
+@media screen and (max-width: 375px) {
+
+	
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+/** monitor Comercio **/
+@media only screen and (min-height: 900px) {
+
+}
+
+/** monitor 768px alto **/
+@media only screen and (min-height: 760px) {
+ 
+}
+
+/** monitor 900px alto **/
+@media only screen and (min-height: 1024px) {
+
+}
+
+/** monitor 1024px alto **/
+@media only screen and (min-height: 1024px) {   
+
+}
